@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color:#69899f; 
+    
+}
+body{
+    background: #e8e8e8;
+}
+input {outline:none;}
+textarea{
+    outline:none;
+    resize: none;
+    overflow : auto;
+    
+overflow:hidden;
+}
+button{
+  outline:none;
+    
+}

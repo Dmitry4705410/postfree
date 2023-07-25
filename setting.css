@@ -1,0 +1,24 @@
+
+.settingMy {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+}
+.setting{
+   margin-top: 5px; 
+}
+.setting-button{
+    border: none;
+    border-radius: 2px;
+    background: #216ca1;
+    color: #fff;
+    padding: 2px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#err,#errpas {
+    font-size: 10px;
+    color: red;
+}

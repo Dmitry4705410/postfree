@@ -1,0 +1,143 @@
+.top-menu {
+    width: 100%;
+    height: 60px;
+    background: #216ca1;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.center {
+    height: 60px;
+    line-height: 60px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo a {
+    font-size: 20pt;
+    color: #fff;
+    font-weight: 700;
+}
+
+.help {
+    margin-right: 100px;
+}
+
+.help a {
+    color: #fff;
+    font-size: 11pt;
+}
+
+.barname {
+    display: flex;
+    max-width: 140px;
+    transition: 0.3s;
+    cursor: pointer;
+   
+}
+.barname:hover{
+    background: #3574a0!important;
+}
+.barname::selection {
+   background: transparent;
+}
+
+.namename {
+    max-width: 80px;
+    
+    margin-left: 3px;
+    margin-right: 5px;
+    
+}
+.namename p{
+    font-size: 9pt;
+    color: #fff;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.strelkaname {
+    width: 12px;
+    margin-top: 27px;
+    opacity: 0.5;
+    margin-right: 5px;
+
+
+}
+
+.imagesname {
+    width: 36px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.imagesname img {
+    border-radius: 100px;
+}
+
+.menufoc{
+    display: none;
+    background: #e8e8e8;
+    width: 140px;
+    position: absolute;
+    border: solid 1px #b8b8b8;
+    border-radius: 2px;
+    line-height: 20px;
+     margin-left: 883px;
+    margin-top: 60px; 
+}
+.menusilka{
+    text-indent:10px;
+    font-size: 9pt;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.menusilka:hover{
+background: #c6c6c6;
+}
+.hr-menu{
+    margin-top: 2px;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .center {
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+    .menufoc{
+        right: 22px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .help {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .logo a {
+        font-size: 13pt;
+    }
+
+    .help a {
+        font-size: 7pt;
+    }
+}

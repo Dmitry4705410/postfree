@@ -1,0 +1,21 @@
+.fotomenuMystr{
+   margin-right: 5px;
+    max-width: 20px;
+    height: 15px;
+}
+.fotomenuMystr img{
+  margin-top: 10px;
+}
+.punctmenu{
+    text-indent: 10px;
+    color:#535353;
+    font-size: 11pt;
+    line-height: 30px;
+    display: flex;
+}
+.punctmenu:hover{
+       background:#e2e2e2; 
+}
+.imgmenu{
+    margin-top: 7px;
+}

@@ -1,0 +1,45 @@
+.Myvariant{
+    display: flex;
+    justify-content: space-between;
+}
+.variant{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10pt;
+}
+.hr-podpiski{
+    width: 97%;
+    margin: 0 auto;
+}
+.osnivaPodpiski{
+    width: 97%;
+    margin: 0 auto;
+}
+.obolochka{
+    border-bottom: 1px solid #000;
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    
+}
+.fotopodpiska{
+    width: 20%;
+}
+.opisPodpiska{
+    margin-left:10px;
+}
+.formPoisk{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.podpiskaGo{
+background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.inputPodpis{
+    
+}
